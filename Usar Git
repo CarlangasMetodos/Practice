@@ -1,0 +1,11 @@
+git init
+git add .                //Este man me va a agregar todos los archivos en la carpeta
+git add Archivo.tipo     //Agrega unicamente el que le di
+git commit -m 'Agrego el commit que quiera poner'
+git remote add origin git@github.com: NombreDeMiCuentaUsuario/NombreDeMiRepositorioNuevo
+git push -u origin master
+
+SI HAY 'FATAL ERROR' SE DEBE USAR
+git remote rm origin
+
+Y REPETIR LO ANTERIOR
